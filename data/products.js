@@ -1,6 +1,6 @@
 /* Krijuar nga paneli i administrimit (Rusi En-Den Admin) për Rusi En-Den Shtëpi. Mos e ndryshoni me dorë. */
 window.RUSI_DATA = {
- "updatedAt": "2026-11-18T20:17:02.858Z",
+ "updatedAt": "2026-11-18T20:17:52.126Z",
  "settings": {
   "whatsappNumber": "355676661101",
   "phoneDisplay": "+355 67 666 1101",
@@ -29,7 +29,7 @@ window.RUSI_DATA = {
   "mapQuery": "Rusi En-Den, Rruga Vllazërimi, Durrës",
   "cfToken": "",
   "site": "home",
-  "otherUrl": "https://LegentOne.github.io/rusi-en-den/",
+  "otherUrl": "https://LegentOne.github.io/rusi-en-den-teknik/",
   "hasOther": true
  },
  "categories": [
