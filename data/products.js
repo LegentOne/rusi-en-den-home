@@ -1,6 +1,6 @@
 /* Krijuar nga paneli i administrimit (Rusi En-Den Admin) për Rusi En-Den Shtëpi. Mos e ndryshoni me dorë. */
 window.RUSI_DATA = {
- "updatedAt": "2026-11-18T21:10:17.711Z",
+ "updatedAt": "2026-11-20T13:34:08.374Z",
  "settings": {
   "whatsappNumber": "355676661101",
   "phoneDisplay": "+355 67 666 1101",
@@ -28,6 +28,8 @@ window.RUSI_DATA = {
   "lowStockAt": 5,
   "mapQuery": "Rusi En-Den, Rruga Vllazërimi, Durrës",
   "cfToken": "",
+  "googleReviewUrl": "",
+  "goatCode": "",
   "hubUrl": "https://LegentOne.github.io/rusi-en-den/",
   "site": "home",
   "otherUrl": "https://LegentOne.github.io/rusi-en-den-teknik/",
@@ -474,8 +476,14 @@ window.RUSI_DATA = {
      "Kokë dushi 30 cm"
     ]
    ],
-   "photos": [],
-   "photo": "",
+   "photos": [
+    "foto/set-dushi-termostatik-i-zi-mat-mwp0ssmysgy.jpg",
+    "foto/set-dushi-termostatik-i-zi-mat-mwp0ssp0j31.jpg",
+    "foto/set-dushi-termostatik-i-zi-mat-mwp0ssqzgfl.jpg",
+    "foto/set-dushi-termostatik-i-zi-mat-mwp0sssym43.jpg",
+    "foto/set-dushi-termostatik-i-zi-mat-mwp0ssuv992.jpg"
+   ],
+   "photo": "foto/set-dushi-termostatik-i-zi-mat-mwp0ssmysgy.jpg",
    "icon": "shower",
    "brand": "",
    "isNew": false,
