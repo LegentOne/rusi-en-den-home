@@ -1,6 +1,6 @@
 /* Krijuar nga paneli i administrimit (Rusi En-Den Admin) për Rusi En-Den Shtëpi. Mos e ndryshoni me dorë. */
 window.RUSI_DATA = {
- "updatedAt": "2026-11-20T13:34:08.374Z",
+ "updatedAt": "2026-11-20T15:28:22.662Z",
  "settings": {
   "whatsappNumber": "355676661101",
   "phoneDisplay": "+355 67 666 1101",
@@ -42,7 +42,29 @@ window.RUSI_DATA = {
    "icon": "sofa",
    "sub": "Mobilje banjoje, pasqyra dhe mobilje shtëpie",
    "name_en": "Furniture",
-   "sub_en": "Bathroom furniture, mirrors and home furniture"
+   "sub_en": "Bathroom furniture, mirrors and home furniture",
+   "subs": [
+    {
+     "id": "mobilje-banjoje",
+     "name": "Mobilje banjoje",
+     "name_en": ""
+    },
+    {
+     "id": "pasqyra",
+     "name": "Pasqyra",
+     "name_en": ""
+    },
+    {
+     "id": "kolltuke-divane",
+     "name": "Kolltukë & divanë",
+     "name_en": ""
+    },
+    {
+     "id": "tavolina",
+     "name": "Tavolina",
+     "name_en": ""
+    }
+   ]
   },
   {
    "id": "sh-hidrosanitare",
@@ -50,7 +72,29 @@ window.RUSI_DATA = {
    "icon": "faucet",
    "sub": "Bateri, dushe, lavamanë dhe vaska",
    "name_en": "Sanitary ware",
-   "sub_en": "Taps, showers, basins and bathtubs"
+   "sub_en": "Taps, showers, basins and bathtubs",
+   "subs": [
+    {
+     "id": "dushe",
+     "name": "Dushe",
+     "name_en": ""
+    },
+    {
+     "id": "lavamane",
+     "name": "Lavamanë",
+     "name_en": ""
+    },
+    {
+     "id": "bateri",
+     "name": "Bateri",
+     "name_en": ""
+    },
+    {
+     "id": "vaska",
+     "name": "Vaska",
+     "name_en": ""
+    }
+   ]
   },
   {
    "id": "sh-ndricim",
@@ -58,7 +102,24 @@ window.RUSI_DATA = {
    "icon": "bulb",
    "sub": "Llambadarë, llamba varëse dhe aplikë",
    "name_en": "Lighting",
-   "sub_en": "Chandeliers, pendants and wall lights"
+   "sub_en": "Chandeliers, pendants and wall lights",
+   "subs": [
+    {
+     "id": "llambadare",
+     "name": "Llambadarë",
+     "name_en": ""
+    },
+    {
+     "id": "llamba-varese",
+     "name": "Llamba varëse",
+     "name_en": ""
+    },
+    {
+     "id": "aplike-muri",
+     "name": "Aplikë muri",
+     "name_en": ""
+    }
+   ]
   }
  ],
  "products": [
@@ -95,7 +156,8 @@ window.RUSI_DATA = {
    "variants": [],
    "name_en": "Shower set with rail",
    "desc_en": "Rail, hand shower and flexible hose, ready to fit.",
-   "added": "2026-11-18"
+   "added": "2026-11-18",
+   "subcat": "dushe"
   },
   {
    "id": "lavaman-60",
@@ -130,7 +192,8 @@ window.RUSI_DATA = {
    "variants": [],
    "name_en": "Ceramic basin 60 cm",
    "desc_en": "Pedestal or vanity basin, with tap hole.",
-   "added": "2026-11-18"
+   "added": "2026-11-18",
+   "subcat": "lavamane"
   },
   {
    "id": "mobilje-banjoje-me-lavaman-80-cm",
@@ -169,7 +232,8 @@ window.RUSI_DATA = {
    "variants": [],
    "name_en": "Bathroom vanity with basin 80 cm",
    "desc_en": "",
-   "added": "2026-11-18"
+   "added": "2026-11-18",
+   "subcat": "mobilje-banjoje"
   },
   {
    "id": "pasqyre-led-me-kornize-ari-70-cm",
@@ -204,7 +268,8 @@ window.RUSI_DATA = {
    "variants": [],
    "name_en": "LED mirror with gold frame Ø70 cm",
    "desc_en": "",
-   "added": "2026-11-18"
+   "added": "2026-11-18",
+   "subcat": "pasqyra"
   },
   {
    "id": "dollap-kolone-banjoje-160-cm",
@@ -239,7 +304,8 @@ window.RUSI_DATA = {
    "variants": [],
    "name_en": "Tall bathroom cabinet 160 cm",
    "desc_en": "",
-   "added": "2026-11-18"
+   "added": "2026-11-18",
+   "subcat": "mobilje-banjoje"
   },
   {
    "id": "kolltuk-kadife-me-kembe-ari",
@@ -274,7 +340,8 @@ window.RUSI_DATA = {
    "variants": [],
    "name_en": "Velvet armchair with gold legs",
    "desc_en": "",
-   "added": "2026-11-18"
+   "added": "2026-11-18",
+   "subcat": "kolltuke-divane"
   },
   {
    "id": "tavoline-anesore-mermeri",
@@ -309,7 +376,8 @@ window.RUSI_DATA = {
    "variants": [],
    "name_en": "Marble side table",
    "desc_en": "",
-   "added": "2026-11-18"
+   "added": "2026-11-18",
+   "subcat": "tavolina"
   },
   {
    "id": "llambadar-kristali-me-8-krahe",
@@ -348,7 +416,8 @@ window.RUSI_DATA = {
    "variants": [],
    "name_en": "Crystal chandelier, 8 arms",
    "desc_en": "",
-   "added": "2026-11-18"
+   "added": "2026-11-18",
+   "subcat": "llambadare"
   },
   {
    "id": "llambe-varese-kupole-ari-40",
@@ -383,7 +452,8 @@ window.RUSI_DATA = {
    "variants": [],
    "name_en": "Gold dome pendant light Ø40",
    "desc_en": "",
-   "added": "2026-11-18"
+   "added": "2026-11-18",
+   "subcat": "llamba-varese"
   },
   {
    "id": "aplik-muri-bronz-me-abazhur",
@@ -414,7 +484,8 @@ window.RUSI_DATA = {
    "variants": [],
    "name_en": "Bronze wall light with shade",
    "desc_en": "",
-   "added": "2026-11-18"
+   "added": "2026-11-18",
+   "subcat": "aplike-muri"
   },
   {
    "id": "bateri-lavamani-ari-mat",
@@ -449,7 +520,8 @@ window.RUSI_DATA = {
    "variants": [],
    "name_en": "Brushed gold basin tap",
    "desc_en": "",
-   "added": "2026-11-18"
+   "added": "2026-11-18",
+   "subcat": "bateri"
   },
   {
    "id": "set-dushi-termostatik-i-zi-mat",
@@ -490,7 +562,8 @@ window.RUSI_DATA = {
    "variants": [],
    "name_en": "Matte black thermostatic shower set",
    "desc_en": "",
-   "added": "2026-11-18"
+   "added": "2026-11-18",
+   "subcat": "dushe"
   },
   {
    "id": "vaske-akrilike-freestanding-170-cm",
@@ -525,7 +598,8 @@ window.RUSI_DATA = {
    "variants": [],
    "name_en": "Freestanding acrylic bathtub 170 cm",
    "desc_en": "",
-   "added": "2026-11-18"
+   "added": "2026-11-18",
+   "subcat": "vaska"
   }
  ]
 };
